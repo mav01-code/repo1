@@ -1,3 +1,69 @@
-p{
-    color: red;
+button:hover{
+    background-color: rgb(13, 222, 13);
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: bisque;
+    border-color: bisque;
+    margin: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, td, tr{
+    border: 1px solid black;
+}
+
+th{
+    background-color: aliceblue;
+}
+
+td{
+    background-color: rgb(142, 161, 161);
+}
+
+form{
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.grid{
+    display: grid;
+    /* grid-template-columns: 50% 50%; */
+}
+
+#box1{
+    grid-column: 1/2;
+}
+
+#box3{
+    grid-column: 2/3;
+}
+
+#box2{
+    grid-column: 1/2;
+}
+
+#box4{
+    grid-column: 2/3;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ol{
+    list-style-type: lower-roman;
 }
